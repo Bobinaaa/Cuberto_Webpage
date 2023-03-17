@@ -1,0 +1,10 @@
+.fila1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.titulo {
+    font-family: 'arial';
+    color: rgb(54, 134, 107);
+}
