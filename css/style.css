@@ -1,10 +1,39 @@
+
+body {
+    margin: 20px;
+    box-sizing: border-box;
+}
+
 .fila1 {
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
 }
 
 .titulo {
     font-family: 'arial';
+    font-size: 30px;
     color: rgb(54, 134, 107);
+}
+
+.pfila1 {
+    font-weight: bolder;
+    font-family: 'Calibri';
+    font-size: 16px;
+}
+
+.fila2 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion_2 {
+    font-family: 'calibri';
+    font-size: 25px;
+}
+
+.img_seccion_2 {
+    width: 220px;
+    height: 220px;
+    border-radius: 5px;
 }
