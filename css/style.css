@@ -24,16 +24,19 @@ body {
 .fila2 {
     margin-top: 50px;
     display: flex;
-    flex-direction: column;
 }
 
-.seccion_2 {
+.texto2_1 {
     font-family: 'calibri';
     font-size: 25px;
+    width: 50%;
+    float: left;
 }
 
 .img_seccion_2 {
+    width: 50%;
     width: 220px;
     height: 220px;
     border-radius: 5px;
+    float: right;
 }
