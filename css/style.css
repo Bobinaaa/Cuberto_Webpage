@@ -35,13 +35,11 @@
     margin-top: 50px;
     display: flex;
     background-color: #f5eef5;
-    width: 50%;
 }
 
 .texto2_1 {
     font-family: 'calibri';
     font-size: 40px;
-    width: 50%;
     float: left;
     margin-left: 5px;
 }
@@ -56,7 +54,6 @@
 .texto2_2 {
     font-family: 'calibri';
     font-size: 40px;
-    width: 50%;
     float: left;
     margin-left: 5px;
 }
@@ -121,8 +118,8 @@
 }
 
 @media screen and (max-width:600px) {
-    .texto2_1 {
-        width: 100%;
+    .fila2 {
+        flex-flow: column;
     }
     .column4 {
         width: 50%;
